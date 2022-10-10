@@ -1,0 +1,124 @@
+object Form1: TForm1
+  Left = 286
+  Top = 499
+  Width = 818
+  Height = 461
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Tic Tac Toe'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Pole1: TImage
+    Left = 64
+    Top = 64
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = Pole1Click
+  end
+  object Pole2: TImage
+    Left = 160
+    Top = 64
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = Pole2Click
+  end
+  object Pole3: TImage
+    Left = 256
+    Top = 64
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = Pole3Click
+  end
+  object Pole4: TImage
+    Left = 64
+    Top = 160
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = Pole4Click
+  end
+  object Pole5: TImage
+    Left = 160
+    Top = 160
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = Pole5Click
+  end
+  object Pole6: TImage
+    Left = 256
+    Top = 160
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = Pole6Click
+  end
+  object Pole7: TImage
+    Left = 64
+    Top = 256
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = Pole7Click
+  end
+  object Pole8: TImage
+    Left = 160
+    Top = 256
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = Pole8Click
+  end
+  object Pole9: TImage
+    Left = 256
+    Top = 256
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = Pole9Click
+  end
+  object Tura: TLabel
+    Left = 440
+    Top = 104
+    Width = 245
+    Height = 46
+    Caption = 'Tura Gracza:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -40
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object gracz: TImage
+    Left = 696
+    Top = 112
+    Width = 30
+    Height = 30
+  end
+  object Button_Od_nowa: TButton
+    Left = 440
+    Top = 216
+    Width = 305
+    Height = 137
+    Cursor = crHandPoint
+    Caption = 'Od nowa'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -40
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+end
